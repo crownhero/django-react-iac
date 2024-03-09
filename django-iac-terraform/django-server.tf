@@ -4,7 +4,7 @@ resource "aws_instance" "django-instance" {
   availability_zone      = var.availablity-zone
   subnet_id              = var.subnet-id
   key_name               = var.key-name
-  vpc_security_group_ids = [aws_security_group.sonarqube_security_group.id]
+  vpc_security_group_ids = [aws_security_group.django_security_group.id]
   user_data              = file("user-data-docker.sh")
 
   tags = {
