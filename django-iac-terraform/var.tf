@@ -1,14 +1,14 @@
 variable "instance-ami" {
   type    = string
-  default = "ami-0505148b3591e4c07"
+  default = "ami-07d9b9ddc6cd8dd30"
 }
 variable "instance-type" {
   type    = string
-  default = "t2.medium"
+  default = "t2.micro"
 }
 variable "availablity-zone" {
   type    = string
-  default = "eu-west-2a"
+  default = "us-east-1"
 }
 variable "subnet-id" { #it is a public subnet
   type    = string
