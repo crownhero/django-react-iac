@@ -8,7 +8,7 @@ resource "aws_instance" "django-instance" {
   user_data              = file("user-data-docker.sh")
 
   tags = {
-    Name = "sonarqube"
+    Name = "django"
   }
 }
 
