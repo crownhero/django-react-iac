@@ -1,3 +1,3 @@
 output "PublicIP" {
-  value = aws_instance.sonarqube-instance.public_ip
+  value = aws_instance.django-instance.public_ip
 }
