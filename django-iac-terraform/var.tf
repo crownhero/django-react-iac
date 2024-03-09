@@ -8,7 +8,7 @@ variable "instance-type" {
 }
 variable "availablity-zone" {
   type    = string
-  default = "us-east-1"
+  default = "us-east-1a"
 }
 variable "subnet-id" { #it is a public subnet
   type    = string
