@@ -1,4 +1,4 @@
-resource "aws_security_group" "sonarqube_security_group" {
+resource "aws_security_group" "django_security_group" {
   name        = var.security-grp-name
   description = "Allow inbound traffic on ports 22, 9000, and 80"
   vpc_id      = var.vpc-id
