@@ -12,7 +12,7 @@ variable "availablity-zone" {
 }
 variable "subnet-id" { #it is a public subnet
   type    = string
-  default = "subnet-05a1e45d24cf68858"
+  default = "subnet-073c354dffb49c694"
 }
 variable "key-name" {
   type    = string
