@@ -27,7 +27,7 @@ jobs:
      defaults:
        run:
          shell: bash
-         working-directory: ./terraform
+         working-directory: ./django-iac-terraform
 
      steps:
        - name: Checkout source code 
