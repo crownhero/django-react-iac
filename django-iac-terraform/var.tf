@@ -16,7 +16,7 @@ variable "subnet-id" { #it is a public subnet
 }
 variable "key-name" {
   type    = string
-  default = "django-react-instance"
+  default = "emmy-private-app-key"
 }
 variable "vpc-id" {
   type    = string
